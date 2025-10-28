@@ -17,9 +17,14 @@ const Navbar = () => {
         <NavLink to="/contact">Contact</NavLink>
         <NavLink to="/blog">Blog</NavLink>
 
-        <button className="btn btn-accent hover:!bg-[#3f5040] hover:text-[#fff] px-10 absolute right-0">
+        <a
+          href="/Jobayer-Mahmud-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-accent px-10 absolute right-0 hover:!bg-[#3f5040] hover:text-[#fff]"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </div>
   );
