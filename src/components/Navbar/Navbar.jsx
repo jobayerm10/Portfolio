@@ -4,20 +4,20 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between mt-3 m-4">
+    <div className="flex justify-between mt-5 m-4">
       <img
         src={logo}
-        className="w-15 h-15 object-contain"
+        className="w-40 h-10 object-contain"
         alt="Jobayer Mahmud"
       />
-      <div className=" flex justify-center items-center gap-10 relative w-full text-accent">
+      <div className=" flex justify-center items-center gap-10 relative w-full text-accent font-bold">
         <NavLink to="/about">About</NavLink>
         <NavLink to="/experience">Experience</NavLink>
         <NavLink to="/work">Work</NavLink>
         <NavLink to="/contact">Contact</NavLink>
         <NavLink to="/blog">Blog</NavLink>
 
-        <button className="btn btn-primary px-10 absolute right-0">
+        <button className="btn btn-accent hover:!bg-[#3f5040] hover:text-[#fff] px-10 absolute right-0">
           Resume
         </button>
       </div>
