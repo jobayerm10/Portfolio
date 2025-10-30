@@ -18,7 +18,7 @@ const Navbar = () => {
         <NavLink to="/blog">Blog</NavLink>
 
         <a
-          href="https://github.com/jobayerm10/Jobayer-Mahmud-Resume/blob/main/Jobayer-Mahmud-Resume.pdf"
+          href="https://cdn.jsdelivr.net/gh/jobayerm10/Jobayer-Mahmud-Resume/Jobayer-Mahmud-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-accent px-10 absolute right-0 hover:!bg-[#3f5040] hover:text-[#fff]"
