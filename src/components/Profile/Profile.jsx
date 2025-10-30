@@ -1,4 +1,4 @@
-import Image from "../../assets/heroImg.png";
+import Image from "../../assets/heroImg.jpg";
 const Profile = () => {
   return (
     <div
@@ -8,7 +8,7 @@ const Profile = () => {
       <h1 className="text-4xl text-center text-accent font-semibold ">
         Profile
       </h1>
-      <div className="border w-30 bg-accent"></div>
+      <div className="border w-30 bg-accent mt-5"></div>
       <div className="flex items-center justify-between max-w-6xl w-full gap-2 mt-10">
         <div className="w-1/2">
           <p className="text-xl  leading-relaxed">
@@ -22,13 +22,12 @@ const Profile = () => {
             the latest trends in web development.
           </p>
         </div>
-        <div className="w-1/2 flex justify-center">
+        <div className="w-1/2 flex justify-center relative group">
           <img
-            className=" rounded-md shadow-lg w-1/2 object-cover"
+            className=" rounded-md shadow-lg w-1/2  object-cover  z-10 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-2xl "
             src={Image}
             alt="Jobayer Mahmud"
           />
-          {/* <div className="border-3 w-1/2 rounded-md bg-accent "></div> */}
         </div>
       </div>
     </div>
