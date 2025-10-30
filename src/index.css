@@ -17,3 +17,7 @@
   font-family: "Poppins", sans-serif;
   background-color: #ebe9e3;
 }
+
+html {
+  scroll-behavior: smooth;
+}

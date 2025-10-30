@@ -5,18 +5,40 @@ import App from "./App.jsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import Header from "./components/Header/Header.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Navbar></Navbar>,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Navbar></Navbar>,
+//   },
+//   {
+//     path: "/about",
+//     element: <Header></Header>,
+//   },
+// ]);
+
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <RouterProvider router={router}>
+//       <App></App>
+//     </RouterProvider>
+//   </StrictMode>
+// );
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Navbar></Navbar>,
+//   },
+//   {
+//     path: "/about",
+//     element: <Header></Header>,
+//   },
+// ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <App></App>
-    </RouterProvider>
+    <App></App>
   </StrictMode>
 );

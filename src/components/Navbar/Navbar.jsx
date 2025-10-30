@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,12 +9,12 @@ const Navbar = () => {
         className="w-40 h-10 object-contain"
         alt="Jobayer Mahmud"
       />
-      <div className=" flex justify-center items-center gap-10 relative w-full text-accent font-bold">
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/experience">Experience</NavLink>
-        <NavLink to="/work">Work</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/blog">Blog</NavLink>
+      <div className="flex justify-center items-center gap-10 relative w-full text-accent font-bold">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
 
         <a
           href="https://cdn.jsdelivr.net/gh/jobayerm10/Jobayer-Mahmud-Resume/Jobayer-Mahmud-Resume.pdf"
