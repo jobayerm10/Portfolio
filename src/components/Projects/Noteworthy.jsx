@@ -3,20 +3,20 @@ import React from "react";
 const Noteworthy = () => {
   const projects = [
     {
-      title: "Spotify-Like Music Player",
-      desc: "A full-page music player built with React, Tailwind CSS, and Lucide React Icons.",
+      title: "To-Do List App",
+      desc: "Organize tasks with this stylish and easy-to-use to-do list.",
     },
     {
-      title: "Portfolio Website",
-      desc: "A sleek personal portfolio website built with React and Tailwind CSS.",
+      title: "Temperature Converter",
+      desc: "Convert Celsius, Fahrenheit, and Kelvin with style.",
     },
     {
-      title: "E-Commerce UI",
-      desc: "An e-commerce homepage layout with a modern product grid and navigation bar.",
+      title: "Form Validation",
+      desc: "Client-side form validation built using pure HTML and JS.",
     },
     {
-      title: "Weather App",
-      desc: "A real-time weather dashboard using OpenWeather API and React Hooks.",
+      title: "Calculator",
+      desc: "A modern calculator made with clean UI and fast logic.",
     },
     {
       title: "Task Manager",

@@ -5,6 +5,7 @@ const Header = () => {
     <div className="flex items-center justify-center min-h-screen">
       <div className="flex flex-col items-start text-left">
         <h4 className="text-xl">Hi, my name is</h4>
+
         <p className="text-5xl mt-3 font-bold text-accent">
           JOBAYER <span>MAHMUD</span>
         </p>

@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Noteworthy from "./components/Projects/Noteworthy";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Profile></Profile>
       <Projects></Projects>
       <Noteworthy></Noteworthy>
+      <Contact></Contact>
     </>
   );
 }
