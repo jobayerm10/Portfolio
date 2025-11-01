@@ -16,7 +16,7 @@ const Contact = () => {
         <a
           href="mailto:jobayermahmud976@gmail.com"
           rel="noopener noreferrer"
-          className="btn btn-accent px-10 mt-10 hover:!bg-[#3f5040] hover:text-[#fff]"
+          className="btn  px-10 mt-10 hover:!bg-[#3f5040] hover:text-[#fff]"
         >
           Contact Me
         </a>

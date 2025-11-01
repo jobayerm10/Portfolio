@@ -15,9 +15,10 @@
 }
 * {
   font-family: "Poppins", sans-serif;
+}
+body {
   background-color: #ebe9e3;
 }
-
 html {
   scroll-behavior: smooth;
 }
