@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     title: "Movie Search App",
-    description:
+    desc:
       "Find your favorite movies instantly using a sleek search interface.",
   },
   {

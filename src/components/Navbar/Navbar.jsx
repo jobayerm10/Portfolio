@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between  rounded-xl  px-3 py-5">
+    <div className="flex justify-between sticky rounded-xl px-3 py-5">
       <img
         src={logo}
         className="w-40 h-10 object-contain"
@@ -11,10 +11,9 @@ const Navbar = () => {
       <div className="flex gap-10 text-accent font-bold">
         <div className="flex gap-10 mt-2">
           <a href="#profile">Profile</a>
-          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
           <a href="#work">Work</a>
           <a href="#contact">Contact</a>
-          <a href="#blog">Blog</a>
         </div>
         <a
           href="https://cdn.jsdelivr.net/gh/jobayerm10/Jobayer-Mahmud-Resume/Jobayer-Mahmud-Resume.pdf"
